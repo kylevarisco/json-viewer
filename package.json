@@ -1,5 +1,5 @@
 {
-    "name": "@alenaksu/json-viewer",
+    "name": "@kvarisco/json-viewer",
     "version": "2.0.1",
     "main": "dist/json-viewer.js",
     "module": "dist/json-viewer.js",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alenaksu/json-viewer.git"
+        "url": "git+https://github.com/kvarisco/json-viewer.git"
     },
     "keywords": [
         "json",
@@ -17,7 +17,7 @@
     ],
     "author": "alenaksu",
     "bugs": {
-        "url": "https://github.com/alenaksu/json-viewer/issues"
+        "url": "https://github.com/kvarisco/json-viewer/issues"
     },
     "files": [
         "dist/*",

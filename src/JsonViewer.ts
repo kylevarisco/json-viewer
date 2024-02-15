@@ -102,7 +102,7 @@ export class JsonViewer extends LitElement {
 
     *search(criteria: string) {
         for (const [node, path] of deepTraverse(this.data)) {
-            if (isPrimitiveOrNode(node) && String(node).includes(criteria)) {
+            if (isPrimitiveOrNode(node) && (String(node).toUpperCase().includes(criteria.toUpperCase()) || String(path).toUpperCase().includes(criteria.toUpperCase())) {
                 this.expand(path);
                 this.updateComplete.then(() => {
                     const node = this.shadowRoot!.querySelector(`[data-path="${path}"]`) as HTMLElement;
